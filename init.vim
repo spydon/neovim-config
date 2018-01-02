@@ -53,7 +53,7 @@ set foldmethod=marker  " Folds are specified with markers
 set foldlevel=100  " No autofolding
 set foldopen=hor,mark,percent,quickfix,tag  " Fold opening movements
 
-set mouse=a  " Enable mouse
+set mouse=n    " Enable mouse
 set mousehide  " Hide mouse once the typing begins
 
 set splitbelow  " Split below when splitting vertically
