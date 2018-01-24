@@ -11,10 +11,12 @@ set backupskip=~/.local/share/nvim/backup/*
 set swapfile
 set dir=~/.local/share/nvim/swap
 
-" Oh behave
+" Sane searching
 set hlsearch   " Highlight search
 set incsearch  " Incremental searching
 set ignorecase " Case insensitive matching in search
+" Make double-<Esc> clear search highlights
+nnoremap <silent> <Esc><Esc> <Esc>:noh<CR><Esc>
 
 " Formatting
 set fo+=o  " Auto insert comment leader after hitting o/O in normal mode
