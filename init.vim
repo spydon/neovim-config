@@ -61,6 +61,18 @@ set mousehide  " Hide mouse once the typing begins
 set splitbelow  " Split below when splitting vertically
 set splitright  " Split to the right when splitting horisontally
 
+" Disable Arrow keys in Escape mode
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
+" Disable Arrow keys in Insert mode
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
